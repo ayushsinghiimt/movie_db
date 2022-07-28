@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-const API_ENDPOINT = `https://www.omdbapi.com/?apikey=67d5ce6b`
+const API_ENDPOINT = `http://www.omdbapi.com/?i=tt3896198&apikey=67d5ce6b&s=batman`
 
 const useFetch = (urlParams) => {
   const [isLoading, setIsLoading] = useState(true)
